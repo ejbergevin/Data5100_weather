@@ -6,60 +6,22 @@
 
 ## Project Overview
 
-We will be comparing precipitation data between municapilities in order to determine which city is rainer.
+We will be comparing precipitation data between municipalities in order to determine which city is rainer.
 
-- **Objective:** Clearly state the main goal of the project.
-- **Domain:** (e.g., Healthcare, Finance, E-commerce, etc.)
+- **Objective:** Determine which city is rainier.
+- **Domain:** Weather
 - **Key Techniques:** (e.g., Regression, Classification, Clustering, NLP, Time Series)
 
 ---
 
 ## Project Structure
 
+## Data Processing
+
+Data collected consists of one station from Seattle, 01-01-2018 to 12-31-2022 and of 68 stations in Springfield over same dates.
+
+For ease of comparison, we have cleaned the data to consist of only one station's worth of records from both cities. Several dates from each city over the five year period were missing; these have complemented by the average precipitation for that day of the year for that city. Both datasets were combined into one final source.
+
+
 ```
-├── data/                 # Raw and processed data
-├── code/                 # Jupyter notebooks and Python scripts
-├── reports/              # Generated reports and visualizations
-├── requirements.txt      # Dependencies
-└── README.md             # Project documentation
-```
-
----
-
-## Data
-
-- **Source:** We will utilize climate data from https://www.ncei.noaa.gov/cdo-web/ which is the National Centers for Evironmental Information.
-- **Description:** Brief overview of the dataset features, size, and format
-- **License:** (if applicable)
-
----
-
-## Analysis
-
-Describe the notebooks and/or scripts used to perform the analysis. Specify the order in which the code should be run to reproduce the results.
-
----
-
-## Results
-
-Include a short discussion of the findings and what they imply.
-
----
-
-## Authors
-
-- EJ Bergevin - [@yourhandle](https://github.com/yourhandle)
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgements
-
-- Tools/libraries used
-- Tutorials or papers referenced
-- Inspiration or collaborators
+bb
